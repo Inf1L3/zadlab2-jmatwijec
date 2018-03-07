@@ -89,6 +89,7 @@ public class Main {
             i += 1;
         } while (skok < 1000);
 */
+        /*
         for(int i=20;i>0;i--)
         {
             if(i==2|| i==6 || i ==9||i==15||i==19)
@@ -96,6 +97,25 @@ public class Main {
                 continue;
             }
              System.out.println(i);
+}
+*/
+        float a=-20,b=3,c=10,x_1,x_2;
+        float delta=b*b-4*(a*b);
+        if(delta>0)
+        {
+            System.out.println("delta dodatnia");
+            x_1=(-b+delta)/2*a;
+            x_2=(-b+delta)/2*a;
+            System.out.println(x_1+x_2);
+        }
+        else if(delta==0)
+         {
+             x_1=(-b+delta)/2*a;
+             System.out.println("delta dodatnia");
+          }
+        else
+        {
+            x_1=(-b+delta)/2*a;
         }
     }
 }
