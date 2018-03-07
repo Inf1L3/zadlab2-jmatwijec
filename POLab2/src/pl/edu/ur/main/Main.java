@@ -106,16 +106,16 @@ public class Main {
             System.out.println("delta dodatnia");
             x_1=(-b+delta)/2*a;
             x_2=(-b+delta)/2*a;
-            System.out.println(x_1+x_2);
+            System.out.println(x_1+" "+x_2);
         }
         else if(delta==0)
          {
              x_1=(-b+delta)/2*a;
-             System.out.println("delta dodatnia");
+             System.out.println(x_1);
           }
         else
         {
-            x_1=(-b+delta)/2*a;
+            System.out.println("delta ujemna brak rozwian");
         }
     }
 }
